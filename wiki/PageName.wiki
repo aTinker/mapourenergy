@@ -10,36 +10,34 @@
 The above is used to compute a $/sq.ft value per entry.
 
 == Google data store fields ==
-  *same as above + time stamp
-  *?zip code/boundary info
+  * same as above + time stamp
+  * ?zip code/boundary info
 
 == User interactions ==
   * Zoomable (default is at state-level)
   * If user enters data once, remove the data entry pane
-    *Per session? Per data entry? Cookies?
+    * Per session? Per data entry? Cookies?
   * About page - 
 
 
 == Potential visualizations ==
   * Based on zoom level (default is at state-level zoom)
-    *Info for states
-     *+ Easy to add using google visualization API
-    *Info at zip code level
-     *-Hard to obtain zip code boundaries and computationally intensive
-     *+zoom level switch will make this a bit better
-     *+plot boundaries only for those which have data
+    * Info for states
+     * + Easy to add using google visualization API
+    * Info at zip code level
+     * -Hard to obtain zip code boundaries and computationally intensive
+     * +zoom level switch will make this a bit better
+     * +plot boundaries only for those which have data
 
   * Histogram of $/sq.ft 
-    *Add a computed national average value (based on a nominal $/kWh) vertical line
-    *Overlay a nominal gaussian in light color?
-    *If user entered data is entered, show this on the histogram too
+    * Add a computed national average value (based on a nominal $/kWh) vertical line
+    * Overlay a nominal gaussian in light color?
+    * If user entered data is entered, show this on the histogram too
 
   * Heat map at state level
-    *Heat map based on $/sq.ft
-    *Heat map based on number of participants
-    *Look for visualization schemes to show both (one in color, other in size/?)
-
-
+    * Heat map based on $/sq.ft
+    * Heat map based on number of participants
+    * Look for visualization schemes to show both (one in color, other in size/?)
 
 
 
